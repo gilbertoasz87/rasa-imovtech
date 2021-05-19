@@ -113,3 +113,11 @@ stories:
   - intent: feedback
   - action: utter_feedback
   - action: utter_continuar_conversa
+- story: path_imovtech
+  steps:
+  - intent: imovtech
+  - action: utter_imovtech
+- story: path_stock
+  steps:
+  - intent: stocks
+  - action: action_stocks

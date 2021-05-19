@@ -368,3 +368,54 @@ nlu:
     - nada de mais
     - foi normal a conversa
     - nem fede e nem cheira
+- intent: imovtech
+  examples: | 
+    - sobre o imovtech
+    - imovtech
+    - imov
+    - startup
+    - oque e imovtech
+    - oq e imovtec
+    - como funciona a empresa
+    - imov tec
+    - imovtecc
+    - imovtecj
+    - sobre
+    - como funciona a empresa
+    - oq e imov
+    - empresa imovtech
+    - imov empresa
+    - tech
+    - como funciona
+    - imovtech e oq 
+    - como compro
+    - casa imovtech
+    - ImovTech
+    - about 
+    - imovtek
+- intent: stocks
+examples: | 
+    - investimentos
+    - açoes
+    - valores
+    - investimentos
+    - açoes
+    - bolsa de valores
+    - grafico
+    - lucro
+    - hold
+    - buy
+    - sell
+    - ibovespa
+    - wall street
+    - dinheiro
+    - como investir 
+    - como ganhar dinheiro
+    - ganhar dinheiro
+    - prejuizo
+    - corretora
+    - papeis
+    - titulos
+    - criptomoedas
+    - dinheiro na mao
+    - quantia

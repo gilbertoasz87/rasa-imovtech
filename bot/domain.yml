@@ -28,6 +28,8 @@ intents:
 - objetivo
 - cancelar
 - feedback
+- imovtech
+- stocks
 entities:
 - sentimento
 - religiao
@@ -270,7 +272,17 @@ responses:
   - text: Muito obrigado pelo seu feedback! Crescer é escutar e evoluir
   - text: Obrigado pelo feedback, vou tentar melhorar cada vez mais
   - text: Valeu pelo feedback, quanto mais a gente rala mais a gente cresce
+  utter_imovtech:
+  - text: 
+          A ImovTech é uma Startup que surgiu no intuito de melhorar a compra e venda de imóveis.
+        
+          Infelizmente no momento estamos acertando os alicerces da nossa estrutura
+
+          Em um futuro breve quero ter o prazer de realizar seus desejos imobiliários ;)
+
+          Mais alguma dúvida?
 actions:
 - action_teste
+- action_stocks
 forms:
   login_form: {}
