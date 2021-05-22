@@ -117,7 +117,7 @@ stories:
   steps:
   - intent: imovtech
   - action: utter_imovtech
-- story: path_stock
+- story: action_stocks
   steps:
   - intent: stocks
   - action: action_stocks

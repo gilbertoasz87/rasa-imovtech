@@ -282,7 +282,7 @@ responses:
 
           Mais alguma dúvida?
 actions:
-- action_teste
-- action_stocks
+  - action_teste
+  - action_stocks
 forms:
   login_form: {}

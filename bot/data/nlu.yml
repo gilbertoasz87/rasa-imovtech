@@ -394,7 +394,7 @@ nlu:
     - about 
     - imovtek
 - intent: stocks
-examples: | 
+  examples: | 
     - investimentos
     - açoes
     - valores
