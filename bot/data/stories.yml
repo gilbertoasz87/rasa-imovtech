@@ -1,5 +1,17 @@
 version: "2.0"
 stories:
+- story: Simulação financiamento
+  steps:
+  - intent: simulacao                                                      
+  - action: simular_financiamento_form                   
+  - active_loop: simular_financiamento_form
+  - active_loop: null
+  - action: resultado_simulacao
+  - action: iniciar_proposta_form 
+  - active_loop: iniciar_proposta_form
+  - active_loop: null
+  - action: status_proposta
+
 - story: cumprimentar
   steps:
   - intent: cumprimentar
