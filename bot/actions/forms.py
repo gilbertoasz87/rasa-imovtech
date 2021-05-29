@@ -15,16 +15,16 @@ from rasa_sdk.forms import FormAction
 from .data_validator import isCpfValid
 
 
-class LoginForm(FormAction):
-    """Form used to handle login information"""
+class SimulationForm(FormAction):
+    """Form used to handle simulation information"""
 
     def name(self) -> Text:
         """Unique identifier of the form"""
-        return "login_form"
+        return "simular_financiamento_form"
 
     @staticmethod
     def required_slots(tracker: Tracker) -> List[Text]:
-        """A list of required slots that will be needed to login"""
+        """A list of required slots that will be needed to simulation"""
         return ["cpf", "data_nascimento"]
 
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
@@ -44,7 +44,7 @@ class LoginForm(FormAction):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[Dict]:
-        """Define what the login form will do after
+        """Define what the simulation form will do after
         all required slots are filled"""
 
         cpf = tracker.get_slot("cpf")

@@ -1,5 +1,19 @@
 version: "2.0"
 nlu:
+- intent: simulacao
+  examples: |
+    - simulação
+    - simuacao
+    - simular
+    - entrar simulação
+    - como fazer simulação
+    - abrir simulacao
+    - simulacao financiamento
+    - simulcao
+    - cimulacao
+    - simulassao
+    - saber quanto pago simulaçao
+    - melhor financiamento simulacao
 - intent: cumprimentar
   examples: |
     - olá
