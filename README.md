@@ -13,7 +13,8 @@
 
 ### Pré requisitos
 
-Para rodar o projeto em sua máquina é necessário ter instalado:
+P
+ara rodar o projeto em sua máquina é necessário ter instalado:
 - Docker
 - Docker compose
 
